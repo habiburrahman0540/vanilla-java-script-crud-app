@@ -1,5 +1,4 @@
-let home = document.querySelector('#menu')
-let chil = home.children
-for (let i of chil){
-    i.style.color = "blue"
-}
+let newTask = document.querySelector('#new-task')
+let form = document.querySelector('form')
+let todoUl = document.querySelector('#items')
+let completeUl =document.querySelector('.complete-list ul')
